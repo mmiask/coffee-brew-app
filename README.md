@@ -1,3 +1,2 @@
-# Yo!
-
-This will be a coffee brewing app!
+# coffee-brew-app
+utility app for brewing coffee
