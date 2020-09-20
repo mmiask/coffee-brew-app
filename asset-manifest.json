@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coffee-brew-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/coffee-brew-app/static/js/main.bf42ae78.chunk.js",
+    "main.js.map": "/coffee-brew-app/static/js/main.bf42ae78.chunk.js.map",
+    "runtime-main.js": "/coffee-brew-app/static/js/runtime-main.0097e01c.js",
+    "runtime-main.js.map": "/coffee-brew-app/static/js/runtime-main.0097e01c.js.map",
+    "static/js/2.f8242f16.chunk.js": "/coffee-brew-app/static/js/2.f8242f16.chunk.js",
+    "static/js/2.f8242f16.chunk.js.map": "/coffee-brew-app/static/js/2.f8242f16.chunk.js.map",
+    "index.html": "/coffee-brew-app/index.html",
+    "precache-manifest.a48e8674ae924f0b131b19fe4f7248cd.js": "/coffee-brew-app/precache-manifest.a48e8674ae924f0b131b19fe4f7248cd.js",
+    "service-worker.js": "/coffee-brew-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/coffee-brew-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f8242f16.chunk.js.LICENSE.txt": "/coffee-brew-app/static/js/2.f8242f16.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0097e01c.js",
+    "static/js/2.f8242f16.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bf42ae78.chunk.js"
+  ]
+}
