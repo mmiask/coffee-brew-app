@@ -1,0 +1,27 @@
+{
+    "brewings": [
+        {
+            "name": "my great aeropress",
+            "method": 0,
+            "roast": 0,
+            "temperature": 95,
+            "grind": 4,
+            "coffeeWeight": 7,
+            "waterVolume": 400,
+            "preinfusionTime": 30,
+            "brewingTime": 180
+        },
+        {
+            "name": "my great aeropress",
+            "method": 1,
+            "roast": 0,
+            "temperature": 77,
+            "grind": 6,
+            "coffeeWeight": 24,
+            "waterVolume": 400,
+            "preinfusionTime": 30,
+            "brewingTime": 180,
+            "rating": 4
+        }
+    ]
+}
