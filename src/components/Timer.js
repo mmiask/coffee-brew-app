@@ -2,7 +2,7 @@ import React from 'react'
 import ms from '../../node_modules/pretty-ms'
 
 // provide time in seconds
-const brewingTime = 2;
+const brewingTime = 120;
 
 export default class Timer extends React.Component {
     constructor(props){
@@ -11,17 +11,16 @@ export default class Timer extends React.Component {
         this.state = {
             time: 0,
             start: 0,
-            isOn: false
         }
     }
 
-    startTimer(e){
+    startTimer(){
         this.setState({
-            isOn: true,
             time: this.state.time,
             start: Date.now()
         })
         this.timer = setInterval(() => {
+            // TODO: fix timer accuracy
             if(this.state.time > parseInt(brewingTime*1000)){
                 clearInterval(this.timer);
                 return;
