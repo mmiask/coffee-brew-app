@@ -2,27 +2,32 @@
 // volume in g
 // temperature in Celsius
 
-export type Brew = {
+export interface Brew {
   method: 'Aeropress' | 'Drip' | 'French Press',
-  totalBrewTime: number;
-  bloomTime: number,
-  steepTime: number,
-  stir: {
-    count: number,
-    duration: number
-  },
-  addWater: {
-    amount: number,
-    duration: number | 'instantly'
-    temperature: number
-  }
   coffee: {
-    roast: 'dark' | 'medium' | 'light',
-    grindSize: string, //TODO
+    roast?: 'dark' | 'medium' | 'light',
+    grindSize: 'extra-coarse' | 'coarse' | 'medium-coarse' | 'medium' | 'medium-fine' | 'fine' | 'fine' | 'extra-fine', //TODO
     amount: number,
   },
-  pressTime: {
+  steps: Step[]
+}
+
+interface Step  {
+  addCoffee?: Brew['coffee']['amount']
+  addWater?: {
+    amount: number,
+    duration?: number
+    temperature: number | 'boiling'
+  },
+  stir?: {
+    count?: number,
+    duration?: number
+    technique?: 'stir' | 'swirl',
+  },
+  press?: {
     time: number,
-    pressure: number // ??? TODO
-  }
+    pressure?: number // ??? TODO
+  },
+  bloomTime?: number,
+  steepTime?: number,
 }
